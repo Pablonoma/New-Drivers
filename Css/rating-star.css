@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background: #eee;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.star {
+    font-size: 32px;
+    color: #ddd;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.checked {
+    color: gold;
+}

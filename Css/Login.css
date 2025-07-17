@@ -1,0 +1,78 @@
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark{background-color: var(--dark) !important; }
+.bg-dark-x{background-color: var(--dark-x);}
+
+.btn-primary{
+    background-color: #FDD45B;
+    color: var(--dark);
+    border-color: var(--dark-x);
+    
+}
+
+.btn-primary:hover{
+    background-color: #ecbf38;
+    color: var(--dark);
+    border-color: var(--dark-x);
+}
+
+.btn-outline-warning {
+    background-color: var(--dark);
+    color: var(--light); 
+    border-color: var(--light);
+}
+
+.btn-outline-warning:hover {
+    background-color: #FDD45B;
+}
+
+.form-control{
+    min-height: 3.125rem;
+    line-height: initial;
+    color: var(--light);
+}
+
+.btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1{
+    background-image: url(../Img/tres.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2{
+    background-image: url(../Img/dos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3{
+    background-image: url(../Img/uno.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4{
+    background-image: url(../Img/New\ Driver\ mejor\ resolucion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#icono{
+    margin-right: 3px;
+}
+
